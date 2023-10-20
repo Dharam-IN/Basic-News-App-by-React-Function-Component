@@ -22,11 +22,11 @@ export default function BusinessNews(){
     return(
         <>
             <div className="container my-4">
-                <h2 className="mb-3">Business News</h2>
+                <h2 className="mb-3">Business News - india </h2>
                 <div className="row gy-4">
                     {articless.map((article, index)=>(
                         <div className="col-md-4 col-sm-6 col-12">
-                            <Newsitems key={index} title={article.title?article.title.slice(0,40): "No Title"} desc={article.description?article.description.slice(0,120): "No Description"} imgUrl={article.urlToImage} url={article.url}/>
+                            <Newsitems key={index} title={article.title?article.title.slice(0,40): "No Title Available"} desc={article.description?article.description.slice(0,120): "No Description"} imgUrl={article.urlToImage} url={article.url}/>
                         </div>
                     ))}
                 </div>

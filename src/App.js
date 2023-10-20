@@ -1,7 +1,8 @@
 import './App.css';
 import News from './Components/News';
 import Navbar from './Components/Navbar';
-import Home from './Components/Home';
+import BusinessNews from './Components/Business';
+import TechnologyNews from './Components/Technology';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -10,8 +11,9 @@ function App() {
       <Navbar />
       <div className="container">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="news" element={<News />} />
+          <Route path="/" element={<News />} />
+          <Route path="business" element={<BusinessNews />} />
+          <Route path="technology" element={<TechnologyNews />} />
         </Routes>
       </div>
     </Router>

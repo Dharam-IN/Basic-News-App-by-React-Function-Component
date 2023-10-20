@@ -13,10 +13,13 @@ export default function Navbar(){
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" href="/">About</a>
+                            <a className="nav-link" href="/">Home</a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/news">News</Link>
+                            <Link className="nav-link" to="business">Business</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="technology">Technology</Link>
                         </li>
                     </ul>
                     <form className="d-flex" role="search">

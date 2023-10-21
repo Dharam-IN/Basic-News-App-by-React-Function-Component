@@ -3,7 +3,7 @@ import loading from './loading.gif'
 
 export default function Loading() {
   return (
-    <div>
+    <div className='text-center'>
         <img src={loading} alt="loading img" />
     </div>
   )

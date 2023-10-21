@@ -11,9 +11,9 @@ function App() {
       <Navbar />
       <div className="container">
         <Routes>
-          <Route path="/" element={<News pageSize={5}/>} />
-          <Route path="business" element={<BusinessNews />} />
-          <Route path="technology" element={<TechnologyNews />} />
+          <Route path="/" element={<News pageSize={10}/>} />
+          <Route path="business" element={<BusinessNews pageSize={10}/>} />
+          <Route path="technology" element={<TechnologyNews pageSize={10}/>} />
         </Routes>
       </div>
     </Router>

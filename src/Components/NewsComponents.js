@@ -8,6 +8,7 @@ export default function Newsitems(props){
                 <div className="card-body">
                     <h5 className="card-title">{props.title}...</h5>
                     <p className="card-text" style={{height: "70px" }}>{props.desc}...</p>
+                    <p className="card-text"><small>By {props.autor} on {props.date}</small></p>
                     <a href={props.url} target="_blank" rel="noreferrer" className="btn btn-sm btn-primary">Go somewhere</a>
                 </div>
             </div>
